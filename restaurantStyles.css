@@ -1,0 +1,26 @@
+.header, .footer{
+    color:darkred; 
+    font-family:cursive,sans-serif;
+}
+
+.footer {
+    font-size: smaller;
+}
+
+#links a {
+    text-decoration: none;
+    color: red;
+}
+                                                                        
+#links a:hover {
+    text-decoration: underline;
+    color:darkred;
+}
+
+#links{
+    text-align: left;
+}
+
+#links td {
+    width:100px;
+}
