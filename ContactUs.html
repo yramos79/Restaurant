@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contact Us
+        </title>
+    </head>
+    <body>
+        <div align="center">
+            <h1>Artesano Restaurant</h1>
+            <hr/>
+            <div align="left">
+                <table>
+                    <tr>
+                        <td width="80px"><a href="HomePage.html">Home</a></td>
+                        <td width="80px"><a href="Menu.html">Menu</a></td>
+                        <td width="80px"><a href="ContactUs.html">Contact Us</a></td>
+                    </tr>
+                    </table>
+            </div>
+            <hr/>
+            <form action="ContactFakePage.html" method="POST">
+                <table border="0">
+                    <tr>
+                        <td align="right">Name:</td>
+                        <td>
+                        <input type="text" name="name" size="25"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Email:</td>
+                        <td>
+                        <input type="text" name="email" size="25"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Phone:</td>
+                        <td>
+                        <input type="text" name="phone" size="25"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Reason for Inquiry:</td>
+                        <td>
+                            <select name="reasons"> 
+                                <option value"Catering" selected>Catering</option>
+                                <option value="Private Party">Private Party</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Additional Information:</td>
+                        <td height="80">
+                            <textarea name="info" rows="4" cols="25" ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Have you been to the restaurant?</td>
+                        <td>
+                        <input type="radio" name="visited" value="No" checked/>No
+                        <input type="radio" name="visited" value="Yes"/>Yes
+                        </td>
+                    </tr>
+                                    
+                    <tr>
+                        <td align="right">Best days to contact you:</td>
+                        <td>
+                            <input type="checkbox" name="M" value="1" />M
+                            <input type="checkbox" name="T" value="2" />T
+                            <input type="checkbox" name="W" value="3" />W
+                            <input type="checkbox" name="Th" value="4" />Th
+                            <input type="checkbox" name="F" value="5" />F
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="right">
+                            <input type="submit" name="send" value="Send Request" />                    
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <hr/>
+            <div>
+                <p>123 Main St, Louisville, KY. 40202</p>
+                <p>502-123-4567</p>
+            </div>
+        </div>
+    </body>
+</html>    
