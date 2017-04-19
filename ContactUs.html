@@ -4,39 +4,57 @@
         <title>
             Contact Us
         </title>
+        <link href="restaurantStyles.css" 
+                rel="stylesheet" 
+                type="text/css" />
+        <style>
+            #contactform {
+                border: 0;
+                color:saddlebrown; 
+                font-family:cursive,sans-serif;
+            }
+
+            #contactform td {
+                block-size: 30px;
+            }
+
+
+        </style>                
     </head>
     <body>
         <div align="center">
-            <h1>Artesano Restaurant</h1>
+            <div class="header">
+                <h1>Artesano Restaurant</h1>
+            </div>
             <hr/>
-            <div align="left">
+            <div id="links">
                 <table>
                     <tr>
-                        <td width="80px"><a href="HomePage.html">Home</a></td>
-                        <td width="80px"><a href="Menu.html">Menu</a></td>
-                        <td width="80px"><a href="ContactUs.html">Contact Us</a></td>
+                        <td><a class="header" href="HomePage.html">Home</a></td>
+                        <td><a class="header" href="Menu.html">Menu</a></td>
+                        <td><a class="header" href="ContactUs.html">Contact Us</a></td>
                     </tr>
-                    </table>
+                </table>
             </div>
             <hr/>
             <form action="ContactFakePage.html" method="POST">
-                <table border="0">
+                <table id="contactform">
                     <tr>
                         <td align="right">Name:</td>
                         <td>
-                        <input type="text" name="name" size="25"/>
+                        <input type="text" name="name" />
                         </td>
                     </tr>
                     <tr>
                         <td align="right">Email:</td>
                         <td>
-                        <input type="text" name="email" size="25"/>
+                        <input type="text" name="email" />
                         </td>
                     </tr>
                     <tr>
                         <td align="right">Phone:</td>
                         <td>
-                        <input type="text" name="phone" size="25"/>
+                        <input type="text" name="phone" />
                         </td>
                     </tr>
                     <tr>
@@ -83,7 +101,7 @@
                 </table>
             </form>
             <hr/>
-            <div>
+            <div class="footer">
                 <p>123 Main St, Louisville, KY. 40202</p>
                 <p>502-123-4567</p>
             </div>
