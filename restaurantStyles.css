@@ -24,3 +24,17 @@
 #links td {
     width:100px;
 }
+
+#content {
+    background-color: lightyellow;
+}
+
+#bgmenu {
+    background-color: lightyellow;
+    align-items: center;
+}
+
+.required {
+    font-weight: bold;
+    text-align: right;
+}
